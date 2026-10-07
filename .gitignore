@@ -1,0 +1,29 @@
+# ===== 密钥与本地配置（绝不提交）=====
+.env
+.env.*
+*.key
+*.pem
+*credentials*
+auth.json
+
+# ===== ProMentor 课程数据（本地生成，ProMentor 自己也要求忽略）=====
+.promentor/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ===== C / C++ 编译产物 =====
+*.o
+*.so
+*.out
+a.out
+*.exe
+
+# ===== 编辑器与系统 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
