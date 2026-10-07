@@ -25,3 +25,16 @@
 ## 笔记
 
 （待补充）
+
+## 怎样运行项目
+
+环境自检脚本（确认工具链已接通）：
+
+```bash
+cd ~/projects/hpc-learning
+python3 hello.py
+```
+
+预期输出中会打印 Python / 平台 / 架构 / gcc / git 的版本。
+
+后续每加一个 Lab，会在本节补充对应的编译与运行命令。
