@@ -1,0 +1,12 @@
+# 统一换行符：仓库与工作区都用 LF
+# 原因：本仓库位于 /mnt/c，同时被 WSL 的 git 和 Windows 的 git 操作。
+# 若不做强制规定，两边对行尾的判断会持续冲突，工作区永远显示"有改动"。
+* text=auto eol=lf
+
+# 二进制文件不做任何转换
+*.png binary
+*.jpg binary
+*.ico binary
+*.pdf binary
+*.docx binary
+*.xlsx binary
